@@ -153,10 +153,13 @@ Structure:
 
 
 
-This file is **automatically created by the application when a user registers for the first time**.
+This file does **not need to exist beforehand**.  
+It is automatically created by the application when a user registers for the first time.
+
 
 # Data availability
 
+All datasets used in the thesis were anonymised and contain no personally identifiable information.
 The datasets used in the original research are **not included in this repository**.
 
 The repository focuses on the **software implementation of the Shiny application**.  
@@ -229,8 +232,9 @@ or
 ```r
 runApp("infection-analysis-dashboard")
 ``` 
-# Author: Salma Ghailan Serroukh
+## Author
 
+**Salma Ghailan Serroukh**  
 Undergraduate thesis project in Mathematics.
 
 The repository contains the implementation of the interactive application developed as part of the research work.
