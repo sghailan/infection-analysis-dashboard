@@ -1,0 +1,27 @@
+---
+title: "Análisis Exploratorio Inicial de los datos"
+output:
+  html_document:
+    toc: true              # Muestra índice (tabla de contenidos)
+    toc_depth: 3           # Niveles que se muestran (subsecciones incluidas)
+    toc_float: true        # El índice se queda flotante en el lateral
+    number_sections: true  # Numerar secciones como 1, 1.1, etc.
+    theme: cosmo           # Tema estético de Bootstrap (puedes cambiarlo)
+    highlight: tango       # Coloreado de código (opcional)
+    df_print: paged        # Las tablas grandes se dividen por páginas
+---
+
+## Contexto dentro del proyecto
+
+Este repositorio se centra exclusivamente en la implementación de la aplicación interactiva desarrollada para el proyecto. Su objetivo es mostrar la estructura, funcionamiento y herramientas visuales de la aplicación Shiny utilizada para explorar y analizar los datos.
+
+Durante el desarrollo completo del Trabajo Fin de Grado se realizó un análisis estadístico mucho más amplio, que incluyó diferentes etapas de exploración de datos, preparación de variables, estudio de datos longitudinales y estimación de modelos estadísticos, entre ellos modelos de efectos mixtos para datos de panel.
+
+Sin embargo, todo ese trabajo analítico y metodológico forma parte de la memoria del TFG y no se incluye en este repositorio. El propósito de este proyecto es únicamente presentar la aplicación desarrollada para visualizar, explorar y comunicar los resultados obtenidos.
+
+Por este motivo, el documento mostrado aquí representa únicamente una versión simplificada utilizada para ilustrar cómo se integraría un análisis exploratorio dentro de la aplicación. En el desarrollo original del trabajo, este análisis fue considerablemente más extenso y formó parte del proceso completo de investigación estadística.
+
+
+
+
+

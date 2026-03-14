@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+**/.DS_Store
+
+*.xlsx
+*.csv
+www/AnalisisExploratorioDatos.Rmd
+www/AnalisisExploratorioDatoss.html
+www/AnalisisExploratorioDatoss.Rmd
+README.html
