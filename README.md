@@ -159,12 +159,10 @@ It is automatically created by the application when a user registers for the fir
 
 # Data availability
 
-All datasets used in the thesis were anonymised and contain no personally identifiable information.
-The datasets used in the original research are **not included in this repository**.
+All datasets used in the thesis were anonymised and contain no personally identifiable information.  
+The original datasets are **not included in this repository**.
 
-The repository focuses on the **software implementation of the Shiny application**.  
-The data used during the thesis were employed exclusively for academic analysis.
-
+This repository focuses exclusively on the **software implementation of the Shiny application** used in the research.
 ---
 
 # Repository structure
@@ -232,6 +230,30 @@ or
 ```r
 runApp("infection-analysis-dashboard")
 ``` 
+
+## Application preview
+
+![Dashboard preview](images/dashboard_preview.png)
+
+The figure above illustrates **one of the interactive pages of the dashboard**.
+
+The application allows users to explore longitudinal patient data through an interactive interface where it is possible to:
+
+- select individual patients
+- analyse physiological variables across time
+- visualise infection events and transitions
+- compare original and interpolated data
+- inspect infection records and related observations
+
+The interface combines **interactive plots, filtering controls and contextual information panels** to facilitate the exploration of infection dynamics in longitudinal patient data.
+
+⚠️ **Note**
+
+The screenshot shown above represents **only a small portion of the application**.  
+The dashboard contains **multiple pages, modules and analytical tools**, including additional visualisations, exploratory analysis interfaces and statistical modelling components.
+
+The image is provided solely to give an overview of the **type of interactive analyses supported by the application**.
+
 ## Author
 
 **Salma Ghailan Serroukh**  
